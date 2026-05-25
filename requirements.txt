@@ -1,0 +1,23 @@
+# Face Attendance System — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Computer Vision
+opencv-python==4.9.0.80
+deepface==0.0.93
+numpy==1.26.4
+Pillow==10.3.0
+
+# Deep Learning backend (DeepFace uses one of these)
+tensorflow==2.15.0     # OR: torch==2.2.2 (choose one)
+
+# UI
+streamlit==1.35.0
+pandas==2.2.2
+altair==5.3.0
+
+# Utilities
+scikit-learn==1.5.0   # For cosine_similarity (optional fallback)
+tqdm==4.66.4          # Progress bars
+
+# Note: tf-keras is required for newer TF versions
+tf-keras==2.15.1
